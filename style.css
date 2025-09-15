@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Iceland', cursive;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+#date {
+    font-size: 6vw;
+    text-align: center;
+}
+
+#weekDay {
+    font-size: 5vw;
+    text-align: center;
+}
+
+#weather {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#saint-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#saint-label {
+    font-size: 2vw;
+}
+
+#saint-name {
+    font-size: 10vw;
+}
